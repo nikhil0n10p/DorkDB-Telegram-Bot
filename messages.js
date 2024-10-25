@@ -61,7 +61,7 @@ module.exports = function handleMessages(bot) {
                         const newDorkEntry = new Dork({ category, dork, addedBy });
                         newDorkEntry.save()
                             .then(() => {
-                                bot.sendMessage("NOTIFICATION_CHANNEL_ID", `Yeni dork eklendi:\nDork: ${dork}\nKategori: ${category}\nEkleyen: ${addedBy}`);
+                                bot.sendMessage(NOTIFICATION_CHANNEL_ID, `Yeni dork eklendi:\nDork: ${dork}\nKategori: ${category}\nEkleyen: ${addedBy}`);
                                 bot.sendMessage(chatId, "Dork successfully added and sent for approval.");
                             })
                             .catch(err => {
