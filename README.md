@@ -75,3 +75,7 @@
 ```
   start.bat
 ```
+
+---
+
+<p align="center"><img src="https://github.com/akifdora/DorkDB-Telegram-Bot/blob/main/screenshots.jpg" alt="project-image"></p>
