@@ -1,6 +1,6 @@
 const Settings = require('./models/settings');
 const Dork = require('./models/dork');
-const adminId = ADMIN_ID;
+const adminId = 7060255401;
 
 module.exports = function handleCommands(bot) {
     bot.onText(/\/start/, (msg) => {
