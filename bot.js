@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const mongoose = require('mongoose');
-const token = 'BOT_TOKEN';
+const token = '8180429515:AAHXRA1GeCUVmQfjX835dYyY9VRhJ3q1UrI';
 const bot = new TelegramBot(token, { polling: true });
 const handleCommands = require('./commands');
 const handleMessages = require('./messages');
